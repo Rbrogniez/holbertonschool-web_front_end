@@ -8,17 +8,17 @@ body{
 
 
 a{
-	columns:#161616;
+	color:#161616;
 }
 
-.visully-hidden{
+.visually-hidden{
 	color: none;
 }
 
 .card-category{
-	color: #D73959;
+	color: #d73953;
 }
 
 .section.tagline{
-	color: #D73959;
+	color: #d73953;
 }
