@@ -2,26 +2,18 @@ html{
 	scroll-behavior: smooth;
 }
 
-body{
+body,a{
 	color:var(--texte-color);
-}
-
-
-a{
-	color: var(--texte-color);
 }
 
 .visually-hidden{
 	color: none;
 }
 
-.card-category{
+.card-category,.section-tagline{
 	color: var(--color-primary);
 }
 
-.section-tagline{
-	color : var(--color-primary);
-}
 
 :root {
 	--color-primary: #d73953;
