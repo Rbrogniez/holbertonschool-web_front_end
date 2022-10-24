@@ -7,10 +7,10 @@ body,a{
 }
 
 .visually-hidden{
-	color: none;
+	display: none;
 }
 
-.card-category,.section-tagline{
+.card-category, .section-tagline{
 	color: var(--color-primary);
 }
 
