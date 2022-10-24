@@ -2,8 +2,8 @@ html{
 	scroll-behavior: smooth;
 }
 
-body,a{
-	color:var(--text-color);
+body, a{
+	color: var(--text-color);
 }
 
 .visually-hidden{
@@ -14,12 +14,11 @@ body,a{
 	color: var(--color-primary);
 }
 
-
-:root {
+:root{
 	--color-primary: #d73953;
-	--color-black:#090909;
-	--color-white:#ffffff;
-	--color-light-grey:#f3f3f3;
-	--color-dark-grey:#353535;
-	--text-color: var(color-black);
+	--color-black: #090909;
+	--color-white: #ffffff;
+	--color-light-grey: #f3f3f3;
+	--color-dark-grey: #353535;
+	--text-color: var(--color-black);
 }
