@@ -190,12 +190,6 @@ ul.row{
 	list-style: none;
 }
 
-ul.footer{
-	text-align: right;
-}
-
-
-
 /*col group
 ==============================================================================*/
 .col-1-3{
@@ -217,9 +211,11 @@ ul.footer{
 }
 
 .footer-copyright{
-	margin: none;
+	margin: 0;
 	font-size: var(--font-size-small);
 	color:var(--text-color)
 }
 
-
+.footer ul{
+	text-align: right;
+}
