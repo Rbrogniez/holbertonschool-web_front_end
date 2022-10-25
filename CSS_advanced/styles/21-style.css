@@ -11,11 +11,6 @@ html{
 	font-size: 62.5%;
 }
 
-html[data-theme='dark'] {
-	--text-color: var(--color-white);
-	--section-title-color: var(var--color-white);
-	
-  }
 :root{
 /* properties group
 ============================================================================= */
