@@ -54,9 +54,9 @@ html{
 	--nav-item-font-family: var(--font-family-title);
 	--nav-item-font-weight: var(--font-weight-bold);
 	--nav-item-font-size: var(--font-size-medium);
-	--nav-item-letter-spacing:;
+	--nav-item-letter-spacing:0 0 4rem;
 	--nav-item-display: inline-block;
-	--nav-item-margin:;
+	--nav-item-margin:0 0 3rem 0;
 	--nav-item-link-hover: var(--color-primary);
 }
 
@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5, h6{
 .navbarmenu{
 	float : right;
 }
+
 /* nav group
 ============================================================================= */
 .nav{
@@ -134,8 +135,13 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+.nav .nav-link{
+	display: block;
+	padding: 50 100 50 100;
 
+}
 /*=========================================================================== */
+
 .section-body{
 	padding: var(--section-body-padding);
 
